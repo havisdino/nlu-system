@@ -1,0 +1,11 @@
+{
+    "neutral": 0,
+    "changing value" : 1,
+    "command" : 2,
+    "device" : 3,
+    "duration" : 4,
+    "location" : 5,
+    "scene" : 6,
+    "target number" : 7,
+    "time at" : 8
+}

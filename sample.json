@@ -1,0 +1,44 @@
+[
+    {
+        "id": "64831a87d9f56915da41ef35",
+        "sentence": "cái đèn tranh trong nhà giữ đồ Trường Sa có còn không ấy nhờ đi kiểm tra ngay nhé",
+        "intent": "Kiểm tra tình trạng thiết bị",
+        "sentence_annotation": "cái [ device : đèn tranh ] trong [ location : nhà giữ đồ Trường Sa ] có còn không ấy nhờ đi [ command : kiểm tra ] ngay nhé",
+        "entities": [
+            {
+                "type": "device",
+                "filler": "đèn tranh"
+            },
+            {
+                "type": "location",
+                "filler": "nhà giữ đồ Trường Sa"
+            },
+            {
+                "type": "command",
+                "filler": "kiểm tra"
+            }
+        ],
+        "file": "64831a87d9f56915da41ef35.wav"
+    },
+    {
+        "id": "64833571d9f569496c41f903",
+        "sentence": "giảm ở ban công 14% cho anh em nhé",
+        "intent": "Giảm độ sáng của thiết bị",
+        "sentence_annotation": "[ command : giảm ] ở [ location : ban công ] [ target number : 14% ] cho anh em nhé",
+        "entities": [
+            {
+                "type": "command",
+                "filler": "giảm"
+            },
+            {
+                "type": "location",
+                "filler": "ban công"
+            },
+            {
+                "type": "target number",
+                "filler": "14%"
+            }
+        ],
+        "file": "64833571d9f569496c41f903.wav"
+    }
+]
